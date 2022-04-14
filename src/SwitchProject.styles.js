@@ -1,0 +1,52 @@
+export default {
+  switchBtn: {
+    position: 'relative',
+    display: 'inline-block',
+    width: 141,
+    height: 35,
+    marginRight: 4,
+    marginTop: 12,
+    paddingLeft: 10,
+    lineHeight: '35px',
+    verticalAlign: 'top',
+    background: '#016BFC',
+    borderRadius: 3,
+    color: '#fff',
+    cursor: 'pointer',
+  },
+  projectIcon: {
+    margin: [0, 10],
+  },
+  arrow: {
+    position: 'absolute',
+    top: 0,
+    right: 9,
+    width: 5,
+    height: 5,
+    marginTop: 15,
+    borderTop: '1px solid #fff',
+    borderLeft: '1px solid #fff',
+  },
+  dropdownContent: {
+    paddingLeft: 0,
+    margin: 0,
+    boxShadow: '4px 4px 74px rgba(16, 31, 50, 0.2)',
+    background: '#fff',
+    color: '#555',
+    cursor: 'pointer',
+    '& li': {
+      height: 40,
+      paddingLeft: 30,
+      borderBottom: 'solid 1px rgba(0, 0, 0, 0.1)',
+      lineHeight: '40px',
+      fontSize: 14,
+      listStyle: 'none',
+      '&:hover': {
+        background: '#d8d8d8',
+        color: '#000',
+      },
+    },
+  },
+  accountDropdown: {
+  },
+}

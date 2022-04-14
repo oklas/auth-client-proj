@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Roboto', sans-serif !important;
+  color: #182F4F !important;
+}
+
+button::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+.sidebar-collapse .sideBarPopupMenu {
+  display: none;
+}
+
+.sidebar-collapse .treeview:hover .sideBarPopupMenu {
+  display: block;
+  left: 220px;
+  top: 12px;
+  transform: initial;
+}
+
+.form-control:focus {
+  border-color: #d2d6de !important;
+}
+.Select-control {
+  width: 90%;
+}
+.Select.is-focused:not(.is-open) > .Select-control {
+  border-color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+.Select-control:hover {
+  box-shadow: none !important;
+}
+
+.Select.has-value.is-clearable.Select--single > .Select-control .Select-value {
+  padding-right: 15px !important;
+}
+
+.Select-placeholder, .Select--single > .Select-control .Select-value {
+  padding: 0 !important;
+}
+
+.sidebar-mini.sidebar-collapse .sidebar-menu > li:hover > .treeview-menu {
+  width: 200px !important;
+}
+
+.sidebar-mini.sidebar-collapse .sidebar-menu > li:hover > a > span:not(.pull-right) {
+  width: 200px !important;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+  color: #bfbfc1 !important;
+}
+
+input:focus {
+  outline: none;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle !important;
+}
+
+svg {
+  vertical-align: middle;
+}
+
+.react-autosuggest__container .react-autosuggest__input {
+  height: 34px !important;
+  padding: 0 10px 0 20px;
+  border: 0.1px solid #dedcdc;
+  background: rgba(68, 89, 117, 0.1);
+  border-radius: 4px;
+  line-height: 34px;
+  font-size: 14px;
+  resize: none;
+}
+
+.react-autosuggest__input:focus {
+  outline: none;
+}
+
+.react-autosuggest__container .react-autosuggest__input::placeholder {
+  padding-left: 10px;
+  color: #016BFC;
+}
+
+.react-autosuggest__suggestions-container--open {
+  width: calc(100% - 60px);
+  margin-top: 7px;
+  margin-left: 10px;
+  padding: 0 20px 10px 20px;
+  background: #fff;
+  box-shadow: 4px 4px 74px rgba(16, 31, 50, 0.2);
+  font-size: 12px;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding-left: 30px;
+  list-style-type: none;
+}
+
+.react-autosuggest__section-title {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  color: #dddddd;
+}
+
+.react-autosuggest__suggestion {
+  padding-top: 5px;
+}
+
+.react-autosuggest__suggestion:before {
+
+}

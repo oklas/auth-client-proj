@@ -1,0 +1,1 @@
+export const inputHeight = '30px'
